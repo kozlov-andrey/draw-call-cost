@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="StatisticsCollector">
+      <UniqueIdentifier>{ed31da29-304c-421f-b984-81bc8fc5eb82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glad">
+      <UniqueIdentifier>{45d118fc-58f0-46d1-a7d2-683e7e6ed507}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="win32_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\StatisticsCollector\CollectStatistics.cpp">
+      <Filter>StatisticsCollector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\StatisticsCollector\GLRenderer.cpp">
+      <Filter>StatisticsCollector</Filter>
+    </ClCompile>
+    <ClCompile Include="glad\src\glad.c">
+      <Filter>glad</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\StatisticsCollector\CollectStatistics.h">
+      <Filter>StatisticsCollector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\StatisticsCollector\GLRenderer.h">
+      <Filter>StatisticsCollector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\StatisticsCollector\Time.h">
+      <Filter>StatisticsCollector</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
